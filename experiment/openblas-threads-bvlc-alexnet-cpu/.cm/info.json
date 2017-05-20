@@ -1,0 +1,16 @@
+{
+  "backup_data_uid": "fab0a34dc82e3307", 
+  "backup_module_uid": "bc0409fb61f0aa82", 
+  "backup_module_uoa": "experiment", 
+  "control": {
+    "engine": "CK", 
+    "iso_datetime": "2017-05-19T22:42:28.356811", 
+    "version": [
+      "1", 
+      "9", 
+      "1", 
+      "1"
+    ]
+  }, 
+  "data_name": "openblas-threads-bvlc-alexnet-cpu"
+}

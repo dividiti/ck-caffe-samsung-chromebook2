@@ -1,0 +1,23 @@
+{
+  "added": {
+    "engine": "CK", 
+    "iso_datetime": "2017-05-19T22:27:25.963379", 
+    "version": [
+      "1", 
+      "9", 
+      "1", 
+      "1"
+    ]
+  }, 
+  "meta": {}, 
+  "pipeline_uid": "b0ac08fe1d3c2615", 
+  "pipeline_uoa": "program", 
+  "points": "16", 
+  "tags": [
+    "explore-batch-size-openblas-threads", 
+    "caffe-time", 
+    "bvlc-googlenet", 
+    "cpu", 
+    "samsung-chromebook2"
+  ]
+}

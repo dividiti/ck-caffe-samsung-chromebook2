@@ -1,0 +1,1709 @@
+{
+  "characteristics_list": [
+    {
+      "run": {
+        "REAL_ENV_CK_CAFFE_BATCH_SIZE": "4", 
+        "REAL_ENV_CK_CAFFE_ITERATIONS": "1", 
+        "REAL_ENV_CK_CAFFE_MODEL": "/home/anton/CK/ck-caffe/program/caffe-time/tmp/tmp-whq01X.prototxt", 
+        "execution_time": 0.968, 
+        "execution_time_with_module": 3.478382110595703, 
+        "memory_bytes": 33292976, 
+        "memory_kbytes": 33292.976, 
+        "memory_mbytes": 33.292975999999996, 
+        "per_layer_info": [
+          {
+            "direction": "forward", 
+            "index": 0, 
+            "label": "00: input", 
+            "time_ms": 0.012, 
+            "time_s": 1.2e-05, 
+            "timestamp": "0519 22:50:44.518257"
+          }, 
+          {
+            "direction": "backward", 
+            "index": 0, 
+            "label": "00: input", 
+            "time_ms": 0.0, 
+            "time_s": 0.0, 
+            "timestamp": "0519 22:50:44.518292"
+          }, 
+          {
+            "direction": "forward", 
+            "index": 1, 
+            "label": "01: conv1", 
+            "time_ms": 74.858, 
+            "time_s": 0.07485800000000001, 
+            "timestamp": "0519 22:50:44.518324"
+          }, 
+          {
+            "direction": "backward", 
+            "index": 1, 
+            "label": "01: conv1", 
+            "time_ms": 0.0, 
+            "time_s": 0.0, 
+            "timestamp": "0519 22:50:44.518358"
+          }, 
+          {
+            "direction": "forward", 
+            "index": 2, 
+            "label": "02: relu1", 
+            "time_ms": 5.443, 
+            "time_s": 0.005443, 
+            "timestamp": "0519 22:50:44.518390"
+          }, 
+          {
+            "direction": "backward", 
+            "index": 2, 
+            "label": "02: relu1", 
+            "time_ms": 0.0, 
+            "time_s": 0.0, 
+            "timestamp": "0519 22:50:44.518421"
+          }, 
+          {
+            "direction": "forward", 
+            "index": 3, 
+            "label": "03: norm1", 
+            "time_ms": 40.328, 
+            "time_s": 0.040328, 
+            "timestamp": "0519 22:50:44.518453"
+          }, 
+          {
+            "direction": "backward", 
+            "index": 3, 
+            "label": "03: norm1", 
+            "time_ms": 0.0, 
+            "time_s": 0.0, 
+            "timestamp": "0519 22:50:44.518486"
+          }, 
+          {
+            "direction": "forward", 
+            "index": 4, 
+            "label": "04: pool1", 
+            "time_ms": 46.763, 
+            "time_s": 0.046763, 
+            "timestamp": "0519 22:50:44.518517"
+          }, 
+          {
+            "direction": "backward", 
+            "index": 4, 
+            "label": "04: pool1", 
+            "time_ms": 0.0, 
+            "time_s": 0.0, 
+            "timestamp": "0519 22:50:44.518551"
+          }, 
+          {
+            "direction": "forward", 
+            "index": 5, 
+            "label": "05: conv2", 
+            "time_ms": 154.142, 
+            "time_s": 0.154142, 
+            "timestamp": "0519 22:50:44.518582"
+          }, 
+          {
+            "direction": "backward", 
+            "index": 5, 
+            "label": "05: conv2", 
+            "time_ms": 0.0, 
+            "time_s": 0.0, 
+            "timestamp": "0519 22:50:44.518615"
+          }, 
+          {
+            "direction": "forward", 
+            "index": 6, 
+            "label": "06: relu2", 
+            "time_ms": 3.449, 
+            "time_s": 0.003449, 
+            "timestamp": "0519 22:50:44.518646"
+          }, 
+          {
+            "direction": "backward", 
+            "index": 6, 
+            "label": "06: relu2", 
+            "time_ms": 0.0, 
+            "time_s": 0.0, 
+            "timestamp": "0519 22:50:44.518678"
+          }, 
+          {
+            "direction": "forward", 
+            "index": 7, 
+            "label": "07: norm2", 
+            "time_ms": 27.244, 
+            "time_s": 0.027244, 
+            "timestamp": "0519 22:50:44.518709"
+          }, 
+          {
+            "direction": "backward", 
+            "index": 7, 
+            "label": "07: norm2", 
+            "time_ms": 0.0, 
+            "time_s": 0.0, 
+            "timestamp": "0519 22:50:44.518743"
+          }, 
+          {
+            "direction": "forward", 
+            "index": 8, 
+            "label": "08: pool2", 
+            "time_ms": 23.31, 
+            "time_s": 0.02331, 
+            "timestamp": "0519 22:50:44.518774"
+          }, 
+          {
+            "direction": "backward", 
+            "index": 8, 
+            "label": "08: pool2", 
+            "time_ms": 0.0, 
+            "time_s": 0.0, 
+            "timestamp": "0519 22:50:44.518807"
+          }, 
+          {
+            "direction": "forward", 
+            "index": 9, 
+            "label": "09: conv3", 
+            "time_ms": 97.605, 
+            "time_s": 0.09760500000000001, 
+            "timestamp": "0519 22:50:44.518838"
+          }, 
+          {
+            "direction": "backward", 
+            "index": 9, 
+            "label": "09: conv3", 
+            "time_ms": 0.0, 
+            "time_s": 0.0, 
+            "timestamp": "0519 22:50:44.518872"
+          }, 
+          {
+            "direction": "forward", 
+            "index": 10, 
+            "label": "10: relu3", 
+            "time_ms": 1.164, 
+            "time_s": 0.0011639999999999999, 
+            "timestamp": "0519 22:50:44.518903"
+          }, 
+          {
+            "direction": "backward", 
+            "index": 10, 
+            "label": "10: relu3", 
+            "time_ms": 0.0, 
+            "time_s": 0.0, 
+            "timestamp": "0519 22:50:44.518934"
+          }, 
+          {
+            "direction": "forward", 
+            "index": 11, 
+            "label": "11: conv4", 
+            "time_ms": 78.343, 
+            "time_s": 0.07834300000000001, 
+            "timestamp": "0519 22:50:44.518965"
+          }, 
+          {
+            "direction": "backward", 
+            "index": 11, 
+            "label": "11: conv4", 
+            "time_ms": 0.0, 
+            "time_s": 0.0, 
+            "timestamp": "0519 22:50:44.518998"
+          }, 
+          {
+            "direction": "forward", 
+            "index": 12, 
+            "label": "12: relu4", 
+            "time_ms": 1.148, 
+            "time_s": 0.001148, 
+            "timestamp": "0519 22:50:44.519031"
+          }, 
+          {
+            "direction": "backward", 
+            "index": 12, 
+            "label": "12: relu4", 
+            "time_ms": 0.0, 
+            "time_s": 0.0, 
+            "timestamp": "0519 22:50:44.519062"
+          }, 
+          {
+            "direction": "forward", 
+            "index": 13, 
+            "label": "13: conv5", 
+            "time_ms": 55.807, 
+            "time_s": 0.055807, 
+            "timestamp": "0519 22:50:44.519093"
+          }, 
+          {
+            "direction": "backward", 
+            "index": 13, 
+            "label": "13: conv5", 
+            "time_ms": 0.0, 
+            "time_s": 0.0, 
+            "timestamp": "0519 22:50:44.519125"
+          }, 
+          {
+            "direction": "forward", 
+            "index": 14, 
+            "label": "14: relu5", 
+            "time_ms": 0.776, 
+            "time_s": 0.000776, 
+            "timestamp": "0519 22:50:44.519156"
+          }, 
+          {
+            "direction": "backward", 
+            "index": 14, 
+            "label": "14: relu5", 
+            "time_ms": 0.0, 
+            "time_s": 0.0, 
+            "timestamp": "0519 22:50:44.519188"
+          }, 
+          {
+            "direction": "forward", 
+            "index": 15, 
+            "label": "15: pool5", 
+            "time_ms": 5.993, 
+            "time_s": 0.005993, 
+            "timestamp": "0519 22:50:44.519219"
+          }, 
+          {
+            "direction": "backward", 
+            "index": 15, 
+            "label": "15: pool5", 
+            "time_ms": 0.0, 
+            "time_s": 0.0, 
+            "timestamp": "0519 22:50:44.519250"
+          }, 
+          {
+            "direction": "forward", 
+            "index": 16, 
+            "label": "16: fc6", 
+            "time_ms": 205.879, 
+            "time_s": 0.205879, 
+            "timestamp": "0519 22:50:44.519281"
+          }, 
+          {
+            "direction": "backward", 
+            "index": 16, 
+            "label": "16: fc6", 
+            "time_ms": 0.0, 
+            "time_s": 0.0, 
+            "timestamp": "0519 22:50:44.519315"
+          }, 
+          {
+            "direction": "forward", 
+            "index": 17, 
+            "label": "17: relu6", 
+            "time_ms": 0.071, 
+            "time_s": 7.099999999999999e-05, 
+            "timestamp": "0519 22:50:44.519400"
+          }, 
+          {
+            "direction": "backward", 
+            "index": 17, 
+            "label": "17: relu6", 
+            "time_ms": 0.0, 
+            "time_s": 0.0, 
+            "timestamp": "0519 22:50:44.519434"
+          }, 
+          {
+            "direction": "forward", 
+            "index": 18, 
+            "label": "18: drop6", 
+            "time_ms": 0.008, 
+            "time_s": 8e-06, 
+            "timestamp": "0519 22:50:44.519466"
+          }, 
+          {
+            "direction": "backward", 
+            "index": 18, 
+            "label": "18: drop6", 
+            "time_ms": 0.0, 
+            "time_s": 0.0, 
+            "timestamp": "0519 22:50:44.519498"
+          }, 
+          {
+            "direction": "forward", 
+            "index": 19, 
+            "label": "19: fc7", 
+            "time_ms": 119.722, 
+            "time_s": 0.119722, 
+            "timestamp": "0519 22:50:44.519531"
+          }, 
+          {
+            "direction": "backward", 
+            "index": 19, 
+            "label": "19: fc7", 
+            "time_ms": 0.0, 
+            "time_s": 0.0, 
+            "timestamp": "0519 22:50:44.519564"
+          }, 
+          {
+            "direction": "forward", 
+            "index": 20, 
+            "label": "20: relu7", 
+            "time_ms": 0.068, 
+            "time_s": 6.800000000000001e-05, 
+            "timestamp": "0519 22:50:44.519595"
+          }, 
+          {
+            "direction": "backward", 
+            "index": 20, 
+            "label": "20: relu7", 
+            "time_ms": 0.0, 
+            "time_s": 0.0, 
+            "timestamp": "0519 22:50:44.519628"
+          }, 
+          {
+            "direction": "forward", 
+            "index": 21, 
+            "label": "21: drop7", 
+            "time_ms": 0.005, 
+            "time_s": 5e-06, 
+            "timestamp": "0519 22:50:44.519659"
+          }, 
+          {
+            "direction": "backward", 
+            "index": 21, 
+            "label": "21: drop7", 
+            "time_ms": 0.0, 
+            "time_s": 0.0, 
+            "timestamp": "0519 22:50:44.519691"
+          }, 
+          {
+            "direction": "forward", 
+            "index": 22, 
+            "label": "22: fc8", 
+            "time_ms": 23.991, 
+            "time_s": 0.023991, 
+            "timestamp": "0519 22:50:44.519722"
+          }, 
+          {
+            "direction": "backward", 
+            "index": 22, 
+            "label": "22: fc8", 
+            "time_ms": 0.0, 
+            "time_s": 0.0, 
+            "timestamp": "0519 22:50:44.519755"
+          }, 
+          {
+            "direction": "forward", 
+            "index": 23, 
+            "label": "23: prob", 
+            "time_ms": 0.363, 
+            "time_s": 0.000363, 
+            "timestamp": "0519 22:50:44.519788"
+          }, 
+          {
+            "direction": "backward", 
+            "index": 23, 
+            "label": "23: prob", 
+            "time_ms": 0.0, 
+            "time_s": 0.0, 
+            "timestamp": "0519 22:50:44.519819"
+          }
+        ], 
+        "post_processed": "yes", 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "time_bw_ms": 0.0, 
+        "time_bw_s": 0.0, 
+        "time_fw_ms": 966.699, 
+        "time_fw_s": 0.966699, 
+        "time_fwbw_ms": 968.0, 
+        "time_fwbw_s": 0.968, 
+        "time_total_ms": 968.0, 
+        "time_total_ms_kernel_0": 968.0, 
+        "time_total_s": 0.968, 
+        "time_total_s_kernel_0": 0.968, 
+        "total_execution_time": 0.968
+      }
+    }, 
+    {
+      "run": {
+        "REAL_ENV_CK_CAFFE_BATCH_SIZE": "4", 
+        "REAL_ENV_CK_CAFFE_ITERATIONS": "1", 
+        "REAL_ENV_CK_CAFFE_MODEL": "/home/anton/CK/ck-caffe/program/caffe-time/tmp/tmp-oS0CnO.prototxt", 
+        "execution_time": 0.967, 
+        "execution_time_with_module": 3.5089099407196045, 
+        "memory_bytes": 33292976, 
+        "memory_kbytes": 33292.976, 
+        "memory_mbytes": 33.292975999999996, 
+        "per_layer_info": [
+          {
+            "direction": "forward", 
+            "index": 0, 
+            "label": "00: input", 
+            "time_ms": 0.012, 
+            "time_s": 1.2e-05, 
+            "timestamp": "0519 22:50:52.826086"
+          }, 
+          {
+            "direction": "backward", 
+            "index": 0, 
+            "label": "00: input", 
+            "time_ms": 0.0, 
+            "time_s": 0.0, 
+            "timestamp": "0519 22:50:52.826120"
+          }, 
+          {
+            "direction": "forward", 
+            "index": 1, 
+            "label": "01: conv1", 
+            "time_ms": 74.973, 
+            "time_s": 0.074973, 
+            "timestamp": "0519 22:50:52.826153"
+          }, 
+          {
+            "direction": "backward", 
+            "index": 1, 
+            "label": "01: conv1", 
+            "time_ms": 0.0, 
+            "time_s": 0.0, 
+            "timestamp": "0519 22:50:52.826186"
+          }, 
+          {
+            "direction": "forward", 
+            "index": 2, 
+            "label": "02: relu1", 
+            "time_ms": 5.303, 
+            "time_s": 0.005303, 
+            "timestamp": "0519 22:50:52.826218"
+          }, 
+          {
+            "direction": "backward", 
+            "index": 2, 
+            "label": "02: relu1", 
+            "time_ms": 0.0, 
+            "time_s": 0.0, 
+            "timestamp": "0519 22:50:52.826249"
+          }, 
+          {
+            "direction": "forward", 
+            "index": 3, 
+            "label": "03: norm1", 
+            "time_ms": 39.486, 
+            "time_s": 0.039486, 
+            "timestamp": "0519 22:50:52.826282"
+          }, 
+          {
+            "direction": "backward", 
+            "index": 3, 
+            "label": "03: norm1", 
+            "time_ms": 0.0, 
+            "time_s": 0.0, 
+            "timestamp": "0519 22:50:52.826314"
+          }, 
+          {
+            "direction": "forward", 
+            "index": 4, 
+            "label": "04: pool1", 
+            "time_ms": 46.108, 
+            "time_s": 0.046107999999999996, 
+            "timestamp": "0519 22:50:52.826345"
+          }, 
+          {
+            "direction": "backward", 
+            "index": 4, 
+            "label": "04: pool1", 
+            "time_ms": 0.0, 
+            "time_s": 0.0, 
+            "timestamp": "0519 22:50:52.826380"
+          }, 
+          {
+            "direction": "forward", 
+            "index": 5, 
+            "label": "05: conv2", 
+            "time_ms": 153.819, 
+            "time_s": 0.15381899999999998, 
+            "timestamp": "0519 22:50:52.826411"
+          }, 
+          {
+            "direction": "backward", 
+            "index": 5, 
+            "label": "05: conv2", 
+            "time_ms": 0.0, 
+            "time_s": 0.0, 
+            "timestamp": "0519 22:50:52.826443"
+          }, 
+          {
+            "direction": "forward", 
+            "index": 6, 
+            "label": "06: relu2", 
+            "time_ms": 3.249, 
+            "time_s": 0.003249, 
+            "timestamp": "0519 22:50:52.826475"
+          }, 
+          {
+            "direction": "backward", 
+            "index": 6, 
+            "label": "06: relu2", 
+            "time_ms": 0.0, 
+            "time_s": 0.0, 
+            "timestamp": "0519 22:50:52.826506"
+          }, 
+          {
+            "direction": "forward", 
+            "index": 7, 
+            "label": "07: norm2", 
+            "time_ms": 27.298, 
+            "time_s": 0.027298, 
+            "timestamp": "0519 22:50:52.826539"
+          }, 
+          {
+            "direction": "backward", 
+            "index": 7, 
+            "label": "07: norm2", 
+            "time_ms": 0.0, 
+            "time_s": 0.0, 
+            "timestamp": "0519 22:50:52.826571"
+          }, 
+          {
+            "direction": "forward", 
+            "index": 8, 
+            "label": "08: pool2", 
+            "time_ms": 23.317, 
+            "time_s": 0.023317, 
+            "timestamp": "0519 22:50:52.826603"
+          }, 
+          {
+            "direction": "backward", 
+            "index": 8, 
+            "label": "08: pool2", 
+            "time_ms": 0.0, 
+            "time_s": 0.0, 
+            "timestamp": "0519 22:50:52.826637"
+          }, 
+          {
+            "direction": "forward", 
+            "index": 9, 
+            "label": "09: conv3", 
+            "time_ms": 98.109, 
+            "time_s": 0.098109, 
+            "timestamp": "0519 22:50:52.826668"
+          }, 
+          {
+            "direction": "backward", 
+            "index": 9, 
+            "label": "09: conv3", 
+            "time_ms": 0.0, 
+            "time_s": 0.0, 
+            "timestamp": "0519 22:50:52.826701"
+          }, 
+          {
+            "direction": "forward", 
+            "index": 10, 
+            "label": "10: relu3", 
+            "time_ms": 1.266, 
+            "time_s": 0.001266, 
+            "timestamp": "0519 22:50:52.826732"
+          }, 
+          {
+            "direction": "backward", 
+            "index": 10, 
+            "label": "10: relu3", 
+            "time_ms": 0.0, 
+            "time_s": 0.0, 
+            "timestamp": "0519 22:50:52.826763"
+          }, 
+          {
+            "direction": "forward", 
+            "index": 11, 
+            "label": "11: conv4", 
+            "time_ms": 78.831, 
+            "time_s": 0.078831, 
+            "timestamp": "0519 22:50:52.826795"
+          }, 
+          {
+            "direction": "backward", 
+            "index": 11, 
+            "label": "11: conv4", 
+            "time_ms": 0.0, 
+            "time_s": 0.0, 
+            "timestamp": "0519 22:50:52.826828"
+          }, 
+          {
+            "direction": "forward", 
+            "index": 12, 
+            "label": "12: relu4", 
+            "time_ms": 1.173, 
+            "time_s": 0.001173, 
+            "timestamp": "0519 22:50:52.826897"
+          }, 
+          {
+            "direction": "backward", 
+            "index": 12, 
+            "label": "12: relu4", 
+            "time_ms": 0.0, 
+            "time_s": 0.0, 
+            "timestamp": "0519 22:50:52.826930"
+          }, 
+          {
+            "direction": "forward", 
+            "index": 13, 
+            "label": "13: conv5", 
+            "time_ms": 56.329, 
+            "time_s": 0.056329000000000004, 
+            "timestamp": "0519 22:50:52.826962"
+          }, 
+          {
+            "direction": "backward", 
+            "index": 13, 
+            "label": "13: conv5", 
+            "time_ms": 0.0, 
+            "time_s": 0.0, 
+            "timestamp": "0519 22:50:52.826995"
+          }, 
+          {
+            "direction": "forward", 
+            "index": 14, 
+            "label": "14: relu5", 
+            "time_ms": 0.723, 
+            "time_s": 0.000723, 
+            "timestamp": "0519 22:50:52.827026"
+          }, 
+          {
+            "direction": "backward", 
+            "index": 14, 
+            "label": "14: relu5", 
+            "time_ms": 0.0, 
+            "time_s": 0.0, 
+            "timestamp": "0519 22:50:52.827059"
+          }, 
+          {
+            "direction": "forward", 
+            "index": 15, 
+            "label": "15: pool5", 
+            "time_ms": 5.949, 
+            "time_s": 0.005949, 
+            "timestamp": "0519 22:50:52.827090"
+          }, 
+          {
+            "direction": "backward", 
+            "index": 15, 
+            "label": "15: pool5", 
+            "time_ms": 0.0, 
+            "time_s": 0.0, 
+            "timestamp": "0519 22:50:52.827121"
+          }, 
+          {
+            "direction": "forward", 
+            "index": 16, 
+            "label": "16: fc6", 
+            "time_ms": 206.614, 
+            "time_s": 0.20661400000000002, 
+            "timestamp": "0519 22:50:52.827153"
+          }, 
+          {
+            "direction": "backward", 
+            "index": 16, 
+            "label": "16: fc6", 
+            "time_ms": 0.0, 
+            "time_s": 0.0, 
+            "timestamp": "0519 22:50:52.827185"
+          }, 
+          {
+            "direction": "forward", 
+            "index": 17, 
+            "label": "17: relu6", 
+            "time_ms": 0.071, 
+            "time_s": 7.099999999999999e-05, 
+            "timestamp": "0519 22:50:52.827276"
+          }, 
+          {
+            "direction": "backward", 
+            "index": 17, 
+            "label": "17: relu6", 
+            "time_ms": 0.0, 
+            "time_s": 0.0, 
+            "timestamp": "0519 22:50:52.827311"
+          }, 
+          {
+            "direction": "forward", 
+            "index": 18, 
+            "label": "18: drop6", 
+            "time_ms": 0.009, 
+            "time_s": 9e-06, 
+            "timestamp": "0519 22:50:52.827343"
+          }, 
+          {
+            "direction": "backward", 
+            "index": 18, 
+            "label": "18: drop6", 
+            "time_ms": 0.0, 
+            "time_s": 0.0, 
+            "timestamp": "0519 22:50:52.827375"
+          }, 
+          {
+            "direction": "forward", 
+            "index": 19, 
+            "label": "19: fc7", 
+            "time_ms": 116.215, 
+            "time_s": 0.11621500000000001, 
+            "timestamp": "0519 22:50:52.827406"
+          }, 
+          {
+            "direction": "backward", 
+            "index": 19, 
+            "label": "19: fc7", 
+            "time_ms": 0.0, 
+            "time_s": 0.0, 
+            "timestamp": "0519 22:50:52.827440"
+          }, 
+          {
+            "direction": "forward", 
+            "index": 20, 
+            "label": "20: relu7", 
+            "time_ms": 0.069, 
+            "time_s": 6.900000000000001e-05, 
+            "timestamp": "0519 22:50:52.827471"
+          }, 
+          {
+            "direction": "backward", 
+            "index": 20, 
+            "label": "20: relu7", 
+            "time_ms": 0.0, 
+            "time_s": 0.0, 
+            "timestamp": "0519 22:50:52.827502"
+          }, 
+          {
+            "direction": "forward", 
+            "index": 21, 
+            "label": "21: drop7", 
+            "time_ms": 0.005, 
+            "time_s": 5e-06, 
+            "timestamp": "0519 22:50:52.827533"
+          }, 
+          {
+            "direction": "backward", 
+            "index": 21, 
+            "label": "21: drop7", 
+            "time_ms": 0.0, 
+            "time_s": 0.0, 
+            "timestamp": "0519 22:50:52.827565"
+          }, 
+          {
+            "direction": "forward", 
+            "index": 22, 
+            "label": "22: fc8", 
+            "time_ms": 26.172, 
+            "time_s": 0.026172, 
+            "timestamp": "0519 22:50:52.827596"
+          }, 
+          {
+            "direction": "backward", 
+            "index": 22, 
+            "label": "22: fc8", 
+            "time_ms": 0.0, 
+            "time_s": 0.0, 
+            "timestamp": "0519 22:50:52.827630"
+          }, 
+          {
+            "direction": "forward", 
+            "index": 23, 
+            "label": "23: prob", 
+            "time_ms": 0.357, 
+            "time_s": 0.000357, 
+            "timestamp": "0519 22:50:52.827661"
+          }, 
+          {
+            "direction": "backward", 
+            "index": 23, 
+            "label": "23: prob", 
+            "time_ms": 0.0, 
+            "time_s": 0.0, 
+            "timestamp": "0519 22:50:52.827692"
+          }
+        ], 
+        "post_processed": "yes", 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "time_bw_ms": 0.0, 
+        "time_bw_s": 0.0, 
+        "time_fw_ms": 965.654, 
+        "time_fw_s": 0.965654, 
+        "time_fwbw_ms": 967.0, 
+        "time_fwbw_s": 0.967, 
+        "time_total_ms": 967.0, 
+        "time_total_ms_kernel_0": 967.0, 
+        "time_total_s": 0.967, 
+        "time_total_s_kernel_0": 0.967, 
+        "total_execution_time": 0.967
+      }
+    }, 
+    {
+      "run": {
+        "REAL_ENV_CK_CAFFE_BATCH_SIZE": "4", 
+        "REAL_ENV_CK_CAFFE_ITERATIONS": "1", 
+        "REAL_ENV_CK_CAFFE_MODEL": "/home/anton/CK/ck-caffe/program/caffe-time/tmp/tmp-xywz0B.prototxt", 
+        "execution_time": 0.965, 
+        "execution_time_with_module": 3.495033025741577, 
+        "memory_bytes": 33292976, 
+        "memory_kbytes": 33292.976, 
+        "memory_mbytes": 33.292975999999996, 
+        "per_layer_info": [
+          {
+            "direction": "forward", 
+            "index": 0, 
+            "label": "00: input", 
+            "time_ms": 0.012, 
+            "time_s": 1.2e-05, 
+            "timestamp": "0519 22:51:01.173723"
+          }, 
+          {
+            "direction": "backward", 
+            "index": 0, 
+            "label": "00: input", 
+            "time_ms": 0.0, 
+            "time_s": 0.0, 
+            "timestamp": "0519 22:51:01.173758"
+          }, 
+          {
+            "direction": "forward", 
+            "index": 1, 
+            "label": "01: conv1", 
+            "time_ms": 74.787, 
+            "time_s": 0.074787, 
+            "timestamp": "0519 22:51:01.173790"
+          }, 
+          {
+            "direction": "backward", 
+            "index": 1, 
+            "label": "01: conv1", 
+            "time_ms": 0.0, 
+            "time_s": 0.0, 
+            "timestamp": "0519 22:51:01.173825"
+          }, 
+          {
+            "direction": "forward", 
+            "index": 2, 
+            "label": "02: relu1", 
+            "time_ms": 5.574, 
+            "time_s": 0.005574, 
+            "timestamp": "0519 22:51:01.173856"
+          }, 
+          {
+            "direction": "backward", 
+            "index": 2, 
+            "label": "02: relu1", 
+            "time_ms": 0.0, 
+            "time_s": 0.0, 
+            "timestamp": "0519 22:51:01.173888"
+          }, 
+          {
+            "direction": "forward", 
+            "index": 3, 
+            "label": "03: norm1", 
+            "time_ms": 39.898, 
+            "time_s": 0.039898, 
+            "timestamp": "0519 22:51:01.173919"
+          }, 
+          {
+            "direction": "backward", 
+            "index": 3, 
+            "label": "03: norm1", 
+            "time_ms": 0.0, 
+            "time_s": 0.0, 
+            "timestamp": "0519 22:51:01.173952"
+          }, 
+          {
+            "direction": "forward", 
+            "index": 4, 
+            "label": "04: pool1", 
+            "time_ms": 46.293, 
+            "time_s": 0.046293, 
+            "timestamp": "0519 22:51:01.173984"
+          }, 
+          {
+            "direction": "backward", 
+            "index": 4, 
+            "label": "04: pool1", 
+            "time_ms": 0.0, 
+            "time_s": 0.0, 
+            "timestamp": "0519 22:51:01.174016"
+          }, 
+          {
+            "direction": "forward", 
+            "index": 5, 
+            "label": "05: conv2", 
+            "time_ms": 154.475, 
+            "time_s": 0.154475, 
+            "timestamp": "0519 22:51:01.174048"
+          }, 
+          {
+            "direction": "backward", 
+            "index": 5, 
+            "label": "05: conv2", 
+            "time_ms": 0.0, 
+            "time_s": 0.0, 
+            "timestamp": "0519 22:51:01.174082"
+          }, 
+          {
+            "direction": "forward", 
+            "index": 6, 
+            "label": "06: relu2", 
+            "time_ms": 3.013, 
+            "time_s": 0.003013, 
+            "timestamp": "0519 22:51:01.174113"
+          }, 
+          {
+            "direction": "backward", 
+            "index": 6, 
+            "label": "06: relu2", 
+            "time_ms": 0.0, 
+            "time_s": 0.0, 
+            "timestamp": "0519 22:51:01.174144"
+          }, 
+          {
+            "direction": "forward", 
+            "index": 7, 
+            "label": "07: norm2", 
+            "time_ms": 27.411, 
+            "time_s": 0.027411, 
+            "timestamp": "0519 22:51:01.174175"
+          }, 
+          {
+            "direction": "backward", 
+            "index": 7, 
+            "label": "07: norm2", 
+            "time_ms": 0.0, 
+            "time_s": 0.0, 
+            "timestamp": "0519 22:51:01.174208"
+          }, 
+          {
+            "direction": "forward", 
+            "index": 8, 
+            "label": "08: pool2", 
+            "time_ms": 23.315, 
+            "time_s": 0.023315000000000002, 
+            "timestamp": "0519 22:51:01.174239"
+          }, 
+          {
+            "direction": "backward", 
+            "index": 8, 
+            "label": "08: pool2", 
+            "time_ms": 0.0, 
+            "time_s": 0.0, 
+            "timestamp": "0519 22:51:01.174273"
+          }, 
+          {
+            "direction": "forward", 
+            "index": 9, 
+            "label": "09: conv3", 
+            "time_ms": 97.591, 
+            "time_s": 0.097591, 
+            "timestamp": "0519 22:51:01.174304"
+          }, 
+          {
+            "direction": "backward", 
+            "index": 9, 
+            "label": "09: conv3", 
+            "time_ms": 0.0, 
+            "time_s": 0.0, 
+            "timestamp": "0519 22:51:01.174336"
+          }, 
+          {
+            "direction": "forward", 
+            "index": 10, 
+            "label": "10: relu3", 
+            "time_ms": 1.155, 
+            "time_s": 0.001155, 
+            "timestamp": "0519 22:51:01.174367"
+          }, 
+          {
+            "direction": "backward", 
+            "index": 10, 
+            "label": "10: relu3", 
+            "time_ms": 0.0, 
+            "time_s": 0.0, 
+            "timestamp": "0519 22:51:01.174399"
+          }, 
+          {
+            "direction": "forward", 
+            "index": 11, 
+            "label": "11: conv4", 
+            "time_ms": 78.291, 
+            "time_s": 0.078291, 
+            "timestamp": "0519 22:51:01.174430"
+          }, 
+          {
+            "direction": "backward", 
+            "index": 11, 
+            "label": "11: conv4", 
+            "time_ms": 0.0, 
+            "time_s": 0.0, 
+            "timestamp": "0519 22:51:01.174463"
+          }, 
+          {
+            "direction": "forward", 
+            "index": 12, 
+            "label": "12: relu4", 
+            "time_ms": 1.147, 
+            "time_s": 0.001147, 
+            "timestamp": "0519 22:51:01.174495"
+          }, 
+          {
+            "direction": "backward", 
+            "index": 12, 
+            "label": "12: relu4", 
+            "time_ms": 0.0, 
+            "time_s": 0.0, 
+            "timestamp": "0519 22:51:01.174526"
+          }, 
+          {
+            "direction": "forward", 
+            "index": 13, 
+            "label": "13: conv5", 
+            "time_ms": 55.963, 
+            "time_s": 0.055963, 
+            "timestamp": "0519 22:51:01.174557"
+          }, 
+          {
+            "direction": "backward", 
+            "index": 13, 
+            "label": "13: conv5", 
+            "time_ms": 0.0, 
+            "time_s": 0.0, 
+            "timestamp": "0519 22:51:01.174590"
+          }, 
+          {
+            "direction": "forward", 
+            "index": 14, 
+            "label": "14: relu5", 
+            "time_ms": 0.74, 
+            "time_s": 0.00074, 
+            "timestamp": "0519 22:51:01.174621"
+          }, 
+          {
+            "direction": "backward", 
+            "index": 14, 
+            "label": "14: relu5", 
+            "time_ms": 0.0, 
+            "time_s": 0.0, 
+            "timestamp": "0519 22:51:01.174654"
+          }, 
+          {
+            "direction": "forward", 
+            "index": 15, 
+            "label": "15: pool5", 
+            "time_ms": 5.956, 
+            "time_s": 0.005956, 
+            "timestamp": "0519 22:51:01.174685"
+          }, 
+          {
+            "direction": "backward", 
+            "index": 15, 
+            "label": "15: pool5", 
+            "time_ms": 0.0, 
+            "time_s": 0.0, 
+            "timestamp": "0519 22:51:01.174717"
+          }, 
+          {
+            "direction": "forward", 
+            "index": 16, 
+            "label": "16: fc6", 
+            "time_ms": 200.929, 
+            "time_s": 0.200929, 
+            "timestamp": "0519 22:51:01.174748"
+          }, 
+          {
+            "direction": "backward", 
+            "index": 16, 
+            "label": "16: fc6", 
+            "time_ms": 0.0, 
+            "time_s": 0.0, 
+            "timestamp": "0519 22:51:01.174782"
+          }, 
+          {
+            "direction": "forward", 
+            "index": 17, 
+            "label": "17: relu6", 
+            "time_ms": 0.072, 
+            "time_s": 7.2e-05, 
+            "timestamp": "0519 22:51:01.174866"
+          }, 
+          {
+            "direction": "backward", 
+            "index": 17, 
+            "label": "17: relu6", 
+            "time_ms": 0.0, 
+            "time_s": 0.0, 
+            "timestamp": "0519 22:51:01.174901"
+          }, 
+          {
+            "direction": "forward", 
+            "index": 18, 
+            "label": "18: drop6", 
+            "time_ms": 0.009, 
+            "time_s": 9e-06, 
+            "timestamp": "0519 22:51:01.174932"
+          }, 
+          {
+            "direction": "backward", 
+            "index": 18, 
+            "label": "18: drop6", 
+            "time_ms": 0.0, 
+            "time_s": 0.0, 
+            "timestamp": "0519 22:51:01.174964"
+          }, 
+          {
+            "direction": "forward", 
+            "index": 19, 
+            "label": "19: fc7", 
+            "time_ms": 122.391, 
+            "time_s": 0.12239100000000001, 
+            "timestamp": "0519 22:51:01.174995"
+          }, 
+          {
+            "direction": "backward", 
+            "index": 19, 
+            "label": "19: fc7", 
+            "time_ms": 0.0, 
+            "time_s": 0.0, 
+            "timestamp": "0519 22:51:01.175029"
+          }, 
+          {
+            "direction": "forward", 
+            "index": 20, 
+            "label": "20: relu7", 
+            "time_ms": 0.068, 
+            "time_s": 6.800000000000001e-05, 
+            "timestamp": "0519 22:51:01.175060"
+          }, 
+          {
+            "direction": "backward", 
+            "index": 20, 
+            "label": "20: relu7", 
+            "time_ms": 0.0, 
+            "time_s": 0.0, 
+            "timestamp": "0519 22:51:01.175091"
+          }, 
+          {
+            "direction": "forward", 
+            "index": 21, 
+            "label": "21: drop7", 
+            "time_ms": 0.006, 
+            "time_s": 6e-06, 
+            "timestamp": "0519 22:51:01.175122"
+          }, 
+          {
+            "direction": "backward", 
+            "index": 21, 
+            "label": "21: drop7", 
+            "time_ms": 0.0, 
+            "time_s": 0.0, 
+            "timestamp": "0519 22:51:01.175154"
+          }, 
+          {
+            "direction": "forward", 
+            "index": 22, 
+            "label": "22: fc8", 
+            "time_ms": 23.9, 
+            "time_s": 0.023899999999999998, 
+            "timestamp": "0519 22:51:01.175186"
+          }, 
+          {
+            "direction": "backward", 
+            "index": 22, 
+            "label": "22: fc8", 
+            "time_ms": 0.0, 
+            "time_s": 0.0, 
+            "timestamp": "0519 22:51:01.175220"
+          }, 
+          {
+            "direction": "forward", 
+            "index": 23, 
+            "label": "23: prob", 
+            "time_ms": 0.363, 
+            "time_s": 0.000363, 
+            "timestamp": "0519 22:51:01.175251"
+          }, 
+          {
+            "direction": "backward", 
+            "index": 23, 
+            "label": "23: prob", 
+            "time_ms": 0.0, 
+            "time_s": 0.0, 
+            "timestamp": "0519 22:51:01.175282"
+          }
+        ], 
+        "post_processed": "yes", 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "time_bw_ms": 0.0, 
+        "time_bw_s": 0.0, 
+        "time_fw_ms": 963.569, 
+        "time_fw_s": 0.963569, 
+        "time_fwbw_ms": 965.0, 
+        "time_fwbw_s": 0.965, 
+        "time_total_ms": 965.0, 
+        "time_total_ms_kernel_0": 965.0, 
+        "time_total_s": 0.965, 
+        "time_total_s_kernel_0": 0.965, 
+        "total_execution_time": 0.965
+      }
+    }
+  ], 
+  "choices": {
+    "cmd_key": "default", 
+    "compile_type": "dynamic", 
+    "compiler_flags": {}, 
+    "cpu_freq": "max", 
+    "data_uoa": "caffe-time", 
+    "dataset_file": "", 
+    "device_cfg": {}, 
+    "device_id": "", 
+    "energy": "no", 
+    "env": {
+      "CK_ARMEABI_V7A": "OFF", 
+      "CK_ARMEABI_V7A_HARD": "OFF", 
+      "CK_CAFFE_BATCH_SIZE": "4", 
+      "CK_CAFFE_ITERATIONS": "1", 
+      "CK_CAFFE_MODEL": "/home/anton/CK/ck-caffe/program/caffe-time/tmp/tmp-whq01X.prototxt", 
+      "CK_CAFFE_MODEL_FILE": "tmp-whq01X.prototxt", 
+      "CK_CAFFE_MODEL_MEAN_BIN": "imagenet_mean.binaryproto", 
+      "CK_CAFFE_MODEL_WEIGHTS": "/home/anton/CK/ck-tools/caffemodel-bvlc-alexnet/bvlc_alexnet.caffemodel", 
+      "CK_CAFFE_SKIP_BACKWARD": 1, 
+      "CK_CPU_ARM_NEON": "OFF", 
+      "CK_CPU_ARM_VFPV3": "OFF", 
+      "CK_CPU_FREQUENCY": "max", 
+      "CK_ENV_MODEL_CAFFE_WEIGHTS": "/home/anton/CK/ck-tools/caffemodel-bvlc-alexnet/bvlc_alexnet.caffemodel", 
+      "CK_GPU_FREQUENCY": "max", 
+      "OPENBLAS_NUM_THREADS": 4, 
+      "XCT_REPEAT_MAIN": "1"
+    }, 
+    "flags": "-O3", 
+    "gpu_freq": "max", 
+    "host_os": "linux-32", 
+    "module_uoa": "b0ac08fe1d3c2615", 
+    "no_compile": "yes", 
+    "no_state_check": "yes", 
+    "repeat": 1, 
+    "skip_calibration": "yes", 
+    "skip_print_timers": "yes", 
+    "target": "", 
+    "target_os": "linux-32", 
+    "target_os_bits": "32"
+  }, 
+  "choices_order": [
+    "##choices#env#CK_CAFFE_BATCH_SIZE", 
+    "##choices#env#OPENBLAS_NUM_THREADS"
+  ], 
+  "features": {
+    "compiler_version": {
+      "list": [
+        6, 
+        3, 
+        0
+      ], 
+      "raw": [
+        "gcc-6.3.0 (Gentoo 6.3.0 p1.0) 6.3.0", 
+        "Copyright (C) 2016 Free Software Foundation, Inc.", 
+        "This is free software; see the source for copying conditions.  There is NO", 
+        "warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.", 
+        "", 
+        ""
+      ], 
+      "str": "6.3.0"
+    }, 
+    "number_of_selected_compiler_flags": 0, 
+    "platform": {
+      "cpu": {
+        "all_freqs": {
+          "0": [
+            1900000, 
+            1800000, 
+            1700000, 
+            1600000, 
+            1500000, 
+            1400000, 
+            1300000, 
+            1200000, 
+            1100000, 
+            1000000, 
+            900000, 
+            800000, 
+            700000, 
+            650000, 
+            600000, 
+            550000, 
+            500000, 
+            450000, 
+            400000, 
+            350000, 
+            300000
+          ], 
+          "1": [
+            1900000, 
+            1800000, 
+            1700000, 
+            1600000, 
+            1500000, 
+            1400000, 
+            1300000, 
+            1200000, 
+            1100000, 
+            1000000, 
+            900000, 
+            800000, 
+            700000, 
+            650000, 
+            600000, 
+            550000, 
+            500000, 
+            450000, 
+            400000, 
+            350000, 
+            300000
+          ], 
+          "2": [
+            1900000, 
+            1800000, 
+            1700000, 
+            1600000, 
+            1500000, 
+            1400000, 
+            1300000, 
+            1200000, 
+            1100000, 
+            1000000, 
+            900000, 
+            800000, 
+            700000, 
+            650000, 
+            600000, 
+            550000, 
+            500000, 
+            450000, 
+            400000, 
+            350000, 
+            300000
+          ], 
+          "3": [
+            1900000, 
+            1800000, 
+            1700000, 
+            1600000, 
+            1500000, 
+            1400000, 
+            1300000, 
+            1200000, 
+            1100000, 
+            1000000, 
+            900000, 
+            800000, 
+            700000, 
+            650000, 
+            600000, 
+            550000, 
+            500000, 
+            450000, 
+            400000, 
+            350000, 
+            300000
+          ]
+        }, 
+        "cpu_abi": "", 
+        "cpu_features": "swp half thumb fastmult vfp edsp thumbee neon vfpv3 tls vfpv4 idiva idivt", 
+        "current_freq": {
+          "0": 1900.0, 
+          "1": 1900.0, 
+          "2": 1900.0, 
+          "3": 1900.0
+        }, 
+        "max_freq": {
+          "0": 1900.0, 
+          "1": 1900.0, 
+          "2": 1900.0, 
+          "3": 1900.0
+        }, 
+        "name": "SAMSUNG EXYNOS5 (Flattened Device Tree)", 
+        "num_proc": "4", 
+        "sub_name": "ARMv7 Processor rev 3 (v7l)", 
+        "workload_automation": {
+          "device_config": {
+            "core_clusters": [
+              0, 
+              0, 
+              0, 
+              1
+            ], 
+            "core_names": [
+              "ARMv7 Processor rev 3 (v7l)", 
+              "ARMv7 Processor rev 3 (v7l)", 
+              "ARMv7 Processor rev 3 (v7l)", 
+              "SAMSUNG EXYNOS5 (Flattened Device Tree)"
+            ]
+          }
+        }
+      }, 
+      "cpu_misc": {
+        "0": {
+          "BogoMIPS": "48.00", 
+          "CPU architecture": "7", 
+          "CPU implementer": "0x41", 
+          "CPU part": "0xc0f", 
+          "CPU revision": "3", 
+          "CPU variant": "0x2", 
+          "Features": "swp half thumb fastmult vfp edsp thumbee neon vfpv3 tls vfpv4 idiva idivt", 
+          "all_freqs": [
+            "0", 
+            "0", 
+            "0", 
+            "0", 
+            "0", 
+            "0", 
+            "0", 
+            "0", 
+            "0", 
+            "0", 
+            "0", 
+            "0", 
+            "0", 
+            "0", 
+            "0", 
+            "0", 
+            "0", 
+            "0", 
+            "0", 
+            "0", 
+            "0"
+          ], 
+          "ck_cpu_name": "ARMv7 Processor rev 3 (v7l)", 
+          "ck_cpu_subname": "ARMv7 Processor rev 3 (v7l)", 
+          "cpu_features": "swp half thumb fastmult vfp edsp thumbee neon vfpv3 tls vfpv4 idiva idivt", 
+          "cur_freq": 1900.0, 
+          "max_freq": 1900.0, 
+          "model name": "ARMv7 Processor rev 3 (v7l)", 
+          "processor": "0"
+        }, 
+        "1": {
+          "BogoMIPS": "48.00", 
+          "CPU architecture": "7", 
+          "CPU implementer": "0x41", 
+          "CPU part": "0xc0f", 
+          "CPU revision": "3", 
+          "CPU variant": "0x2", 
+          "Features": "swp half thumb fastmult vfp edsp thumbee neon vfpv3 tls vfpv4 idiva idivt", 
+          "all_freqs": [
+            "1", 
+            "1", 
+            "1", 
+            "1", 
+            "1", 
+            "1", 
+            "1", 
+            "1", 
+            "1", 
+            "1", 
+            "1", 
+            "1", 
+            "1", 
+            "1", 
+            "1", 
+            "1", 
+            "1", 
+            "1", 
+            "1", 
+            "1", 
+            "1"
+          ], 
+          "ck_cpu_name": "ARMv7 Processor rev 3 (v7l)", 
+          "ck_cpu_subname": "ARMv7 Processor rev 3 (v7l)", 
+          "cpu_features": "swp half thumb fastmult vfp edsp thumbee neon vfpv3 tls vfpv4 idiva idivt", 
+          "cur_freq": 1900.0, 
+          "max_freq": 1900.0, 
+          "model name": "ARMv7 Processor rev 3 (v7l)", 
+          "processor": "1"
+        }, 
+        "2": {
+          "BogoMIPS": "48.00", 
+          "CPU architecture": "7", 
+          "CPU implementer": "0x41", 
+          "CPU part": "0xc0f", 
+          "CPU revision": "3", 
+          "CPU variant": "0x2", 
+          "Features": "swp half thumb fastmult vfp edsp thumbee neon vfpv3 tls vfpv4 idiva idivt", 
+          "all_freqs": [
+            "2", 
+            "2", 
+            "2", 
+            "2", 
+            "2", 
+            "2", 
+            "2", 
+            "2", 
+            "2", 
+            "2", 
+            "2", 
+            "2", 
+            "2", 
+            "2", 
+            "2", 
+            "2", 
+            "2", 
+            "2", 
+            "2", 
+            "2", 
+            "2"
+          ], 
+          "ck_cpu_name": "ARMv7 Processor rev 3 (v7l)", 
+          "ck_cpu_subname": "ARMv7 Processor rev 3 (v7l)", 
+          "cpu_features": "swp half thumb fastmult vfp edsp thumbee neon vfpv3 tls vfpv4 idiva idivt", 
+          "cur_freq": 1900.0, 
+          "max_freq": 1900.0, 
+          "model name": "ARMv7 Processor rev 3 (v7l)", 
+          "processor": "2"
+        }, 
+        "3": {
+          "BogoMIPS": "48.00", 
+          "CPU architecture": "7", 
+          "CPU implementer": "0x41", 
+          "CPU part": "0xc0f", 
+          "CPU revision": "3", 
+          "CPU variant": "0x2", 
+          "Features": "swp half thumb fastmult vfp edsp thumbee neon vfpv3 tls vfpv4 idiva idivt", 
+          "Hardware": "SAMSUNG EXYNOS5 (Flattened Device Tree)", 
+          "Revision": "0000", 
+          "Serial": "0000000000000000", 
+          "all_freqs": [
+            "3", 
+            "3", 
+            "3", 
+            "3", 
+            "3", 
+            "3", 
+            "3", 
+            "3", 
+            "3", 
+            "3", 
+            "3", 
+            "3", 
+            "3", 
+            "3", 
+            "3", 
+            "3", 
+            "3", 
+            "3", 
+            "3", 
+            "3", 
+            "3"
+          ], 
+          "ck_cpu_name": "SAMSUNG EXYNOS5 (Flattened Device Tree)", 
+          "ck_cpu_subname": "ARMv7 Processor rev 3 (v7l)", 
+          "cpu_features": "swp half thumb fastmult vfp edsp thumbee neon vfpv3 tls vfpv4 idiva idivt", 
+          "cur_freq": 1900.0, 
+          "max_freq": 1900.0, 
+          "model name": "ARMv7 Processor rev 3 (v7l)", 
+          "processor": "3"
+        }
+      }, 
+      "cpu_new_format": "", 
+      "cpu_unique": [
+        {
+          "BogoMIPS": "48.00", 
+          "CPU architecture": "7", 
+          "CPU implementer": "0x41", 
+          "CPU part": "0xc0f", 
+          "CPU revision": "3", 
+          "CPU variant": "0x2", 
+          "Features": "swp half thumb fastmult vfp edsp thumbee neon vfpv3 tls vfpv4 idiva idivt", 
+          "all_freqs": [
+            "0", 
+            "0", 
+            "0", 
+            "0", 
+            "0", 
+            "0", 
+            "0", 
+            "0", 
+            "0", 
+            "0", 
+            "0", 
+            "0", 
+            "0", 
+            "0", 
+            "0", 
+            "0", 
+            "0", 
+            "0", 
+            "0", 
+            "0", 
+            "0"
+          ], 
+          "ck_cpu_name": "ARMv7 Processor rev 3 (v7l)", 
+          "ck_cpu_subname": "ARMv7 Processor rev 3 (v7l)", 
+          "cpu_features": "swp half thumb fastmult vfp edsp thumbee neon vfpv3 tls vfpv4 idiva idivt", 
+          "cur_freq": 1900.0, 
+          "max_freq": 1900.0, 
+          "model name": "ARMv7 Processor rev 3 (v7l)", 
+          "processor": "0"
+        }, 
+        {
+          "BogoMIPS": "48.00", 
+          "CPU architecture": "7", 
+          "CPU implementer": "0x41", 
+          "CPU part": "0xc0f", 
+          "CPU revision": "3", 
+          "CPU variant": "0x2", 
+          "Features": "swp half thumb fastmult vfp edsp thumbee neon vfpv3 tls vfpv4 idiva idivt", 
+          "Hardware": "SAMSUNG EXYNOS5 (Flattened Device Tree)", 
+          "Revision": "0000", 
+          "Serial": "0000000000000000", 
+          "all_freqs": [
+            "3", 
+            "3", 
+            "3", 
+            "3", 
+            "3", 
+            "3", 
+            "3", 
+            "3", 
+            "3", 
+            "3", 
+            "3", 
+            "3", 
+            "3", 
+            "3", 
+            "3", 
+            "3", 
+            "3", 
+            "3", 
+            "3", 
+            "3", 
+            "3"
+          ], 
+          "ck_cpu_name": "SAMSUNG EXYNOS5 (Flattened Device Tree)", 
+          "ck_cpu_subname": "ARMv7 Processor rev 3 (v7l)", 
+          "cpu_features": "swp half thumb fastmult vfp edsp thumbee neon vfpv3 tls vfpv4 idiva idivt", 
+          "cur_freq": 1900.0, 
+          "max_freq": 1900.0, 
+          "model name": "ARMv7 Processor rev 3 (v7l)", 
+          "processor": "3"
+        }
+      ], 
+      "gpu": {
+        "name": "", 
+        "vendor": ""
+      }, 
+      "gpu_misc": {}, 
+      "os": {
+        "abi": "armv7l", 
+        "bits": "32", 
+        "ck_os_base_uoa": "", 
+        "ck_os_uoa": "linux-32", 
+        "name": "Gentoo/Linux", 
+        "name_long": "Linux-3.8.11-armv7l-ARMv7_Processor_rev_3_-v7l-with-gentoo-2.3", 
+        "name_short": "Linux 3.8.11", 
+        "serial_number": ""
+      }, 
+      "os_misc": {}, 
+      "platform": {
+        "model": "Google Peach Pit Rev 6+\u0000", 
+        "name": "Google (Google Peach Pit Rev 6+\u0000)", 
+        "vendor": "Google"
+      }, 
+      "platform_misc": {}
+    }, 
+    "statistical_repetitions": 3
+  }
+}

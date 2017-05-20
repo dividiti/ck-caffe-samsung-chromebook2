@@ -1,0 +1,16 @@
+{
+  "backup_data_uid": "fcd05de4758bcda0", 
+  "backup_module_uid": "bc0409fb61f0aa82", 
+  "backup_module_uoa": "experiment", 
+  "control": {
+    "engine": "CK", 
+    "iso_datetime": "2017-05-19T22:27:25.790295", 
+    "version": [
+      "1", 
+      "9", 
+      "1", 
+      "1"
+    ]
+  }, 
+  "data_name": "openblas-threads-bvlc-googlenet-cpu"
+}
