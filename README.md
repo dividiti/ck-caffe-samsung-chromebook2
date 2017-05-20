@@ -11,7 +11,7 @@ A suite of open-source tools for [collecting knowledge on optimising AI](http://
 
 # [PUBLIC] Benchmarking Caffe with OpenBLAS on Samsung Chromebook 2
 
-We study the **execution time** of inference (forward propagation):
+The Jupyter notebook ([view on github.com](https://github.com/dividiti/ck-caffe-samsung-chromebook2/blob/master/script/batch_size-openblas_threads-models/analysis.20170520.ipynb); [view on nbviewer.jupyter.org](https://nbviewer.jupyter.org/github/dividiti/ck-caffe-samsung-chromebook2/blob/master/script/batch_size-openblas_threads-models/analysis.20170520.ipynb?raw) in this Collective Knowledge repository analyses the **execution time** of inference (forward propagation):
 - on the [Samsung Chromebook 2](http://www.samsung.com/us/computer/chrome-os-devices/XE503C12-K01US-specs) **platform**:
   - [CPU] quad-core ARM Cortex-A15 @ 1900 MHz;
   - [CPU] quad-core ARM Cortex-A7 @ 1300 MHz (not used);
