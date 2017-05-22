@@ -1,4 +1,4 @@
-# [cknowledge.org/ai](https://cknowledge.org/ai): Crowdsourcing benchmarking and optimisation of AI
+# [cknowledge.org/ai](http://cknowledge.org/ai): Crowdsourcing benchmarking and optimisation of AI
 
 A suite of open-source tools for [collecting knowledge on optimising AI](http://bit.ly/hipeac49-ckdl):
 * [Android app](https://play.google.com/store/apps/details?id=openscience.crowdsource.video.experiments&hl=en_GB)
